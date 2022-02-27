@@ -1,0 +1,788 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A diary of the siege of Colchester by the forces under the command of Generall Fairfax</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1648</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 2 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A81447</idno>
+            <idno type="STC">Wing D1378A</idno>
+            <idno type="STC">ESTC R231937</idno>
+            <idno type="EEBO-CITATION">99897637</idno>
+            <idno type="PROQUEST">99897637</idno>
+            <idno type="VID">133305</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A81447)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 133305)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2512:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A diary of the siege of Colchester by the forces under the command of Generall Fairfax</title>
+               </titleStmt>
+               <extent>2 sheets (versos blank) : ill. map  </extent>
+               <publicationStmt>
+                  <publisher>Printed and sold by Tho: Witham at the Golden Ball in Long Lane near West Smithfield,</publisher>
+                  <pubPlace>[[London] :</pubPlace>
+                  <date>[1648?]]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A description of the Parliamentary Army's siege of Colchester, dated Tuesday, June 13 through Tuesday, August 22.</note>
+                  <note>Consists of two engraved maps (2 sheets, 1⁰), with engraved text surrounding the maps.</note>
+                  <note>Imprint from second sheet.</note>
+                  <note>Wholly engraved.</note>
+                  <note>Reproduction of original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Fairfax, Thomas Fairfax, --  Baron, 1612-1671 --  Early works to 1800.</term>
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Early works to 1800.</term>
+               <term>Colchester (England) --  History --  Siege, 1648 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-05</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-05</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="diary_of_the_siege_of_Colchester">
+            <pb facs="tcp:133305:1"/>
+            <pb facs="tcp:133305:2" rendition="simple:additions"/>
+            <head>A DIARY of the Siege of COLCHESTER by the Forces under the Command of Generall FAIRFAX.</head>
+            <p>
+               <figure>
+                  <figDesc>depiction of the city of Colchester and environs</figDesc>
+                  <head>
+                     <hi>The SIEGE of COLCHESTER</hi> By the Lord <hi>Fairfax,</hi> As it was with the Line and Outworks 1648</head>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a compass rose with the cardinal points</figDesc>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Fothergall's fort</figDesc>
+                        <head>Col <hi>Fother<g ref="char:EOLhyphen"/>gall's</hi> Fort</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a horse guard</figDesc>
+                        <head>Horse Guard</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a foot guard</figDesc>
+                        <head>Foot Guard</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Fort Suffolk</figDesc>
+                        <head>Fort <hi>Suffolk</hi>
+                        </head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Fort Rainsborough</figDesc>
+                        <head>Fort <hi>Rainsborough.</hi>
+                        </head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Fort Bloyes</figDesc>
+                        <head>Fort <hi>Bloyes</hi>
+                        </head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Fothergall's quarters</figDesc>
+                        <head>Col. Fothergall's quarters.</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Harvey's quarters</figDesc>
+                        <head>Col. Harvey's quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Gourdon's horse quarters</figDesc>
+                        <head>Col. Gourdons Horse quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a horse guard</figDesc>
+                        <head>Horſe Guard</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a foot guard</figDesc>
+                        <head>Foot Guard</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Bloyes' quarters</figDesc>
+                        <head>Col. Bloyes his quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Sir Thomas Barnadileons quarters</figDesc>
+                        <head>Col. Sir Tho. Barnadileons quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Whaley's horse quarters</figDesc>
+                        <head>Col. Whaley's Horse quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Fort Whaley, including Grinstead Church and a foot guard</figDesc>
+                        <head>Fort <hi>Whaley</hi>
+                        </head>
+                        <p>Grinstead Church.</p>
+                        <p>Foot Guard</p>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the derelict Hythe mill</figDesc>
+                        <head>Water Mill</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a horse guard</figDesc>
+                        <head>Horse Guard</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a water mill</figDesc>
+                        <head>Water Mill</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Scroops quarters of horse</figDesc>
+                        <head>Col. Scroops quarters of Horse</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Col. Ingolesby's quarters of foot</figDesc>
+                        <head>Col. Ingoleſby's quarters of Foot</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Ewer's quarters of foot</figDesc>
+                        <head>Col. Ewers his quarters of Foot at first</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a horse guard</figDesc>
+                        <head>Horse Guard</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a horse guard</figDesc>
+                        <head>Horse Guard</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Ewer's military camp</figDesc>
+                        <head>Col <hi>Ewers</hi> Leagure</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the great broom heath</figDesc>
+                        <head>The great Broom Heath</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Fort Ingolesby</figDesc>
+                        <head>Fort <hi>Ingoleſby</hi>
+                        </head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the town's waterhouse</figDesc>
+                        <head>the Town Waterhouſe</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Grinstead's burnt house</figDesc>
+                        <head>Grinſtead house burnt</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Lucas' house</figDesc>
+                        <head>Lucas house</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of St. John's Benedictine abbey</figDesc>
+                        <head>S. Iohns Abbey</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Trinity Church</figDesc>
+                        <head>Trinity Church</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the Castle</figDesc>
+                        <head>the Caſtle</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of St. Peter's Church</figDesc>
+                        <head>S. Peters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Maudline Chapel</figDesc>
+                        <head>Maud<g ref="char:EOLhyphen"/>line Chap.</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of St. Mary Magdalene's Hospital</figDesc>
+                        <head>S. Mary Magdalens</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the Hythe</figDesc>
+                        <head>Hithe</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the Grey Friars Franciscan priory</figDesc>
+                        <head>Black Fryars</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the Crutched Friars Roman Catholic friary</figDesc>
+                        <head>Crouchet Fryars</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Fort Needham</figDesc>
+                        <head>Fort <hi>Needham.</hi>
+                        </head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Mr. Barrington's house</figDesc>
+                        <head>M.<hi rend="sup">r</hi> Barringtons House</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Fleetwood's horse quarters</figDesc>
+                        <head>Col. Fleetwoods Horse quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Fort Essex</figDesc>
+                        <head>Fort <hi>Eſſex</hi>
+                        </head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Fort Barkstead</figDesc>
+                        <head>
+                           <hi>Barkſtead</hi> Fort</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Lexden headquarters</figDesc>
+                        <head>
+                           <hi>Lexden</hi> head quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a foot guard</figDesc>
+                        <head>Foot Guard.</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a horse guard</figDesc>
+                        <head>Horse Guard.</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Cook's foot quarters</figDesc>
+                        <head>Col Cook's Foot quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a cannonade</figDesc>
+                        <head>Traine of great Gunns</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Hunniwood's foot quarters</figDesc>
+                        <head>Col. Hunniwoods Foot quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of five companies of Colonel Barkstead's regiment quarters</figDesc>
+                        <head>5 Comp. of Col. Barkſteads Reg<hi rend="sup">t</hi>. quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the dragoons' guard and quarters</figDesc>
+                        <head>Dragoons Guard and quarters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a horse guard</figDesc>
+                        <head>Horſe Guard</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the General's quarter of horse</figDesc>
+                        <head>The Generalls quarter of Horse</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of two of the Lieutenant General's horse troop</figDesc>
+                        <head>2 Troops of the Lieut. Generalls Horse</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of four companies of the Lord Warwick's regiment</figDesc>
+                        <head>4 Comp. of the Lord of Warwick's Regiment</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Colonel Harlackenden's horse quarters</figDesc>
+                        <head>Col. Harlacken<g ref="char:EOLhyphen"/>dens Horse quar<g ref="char:EOLhyphen"/>ters</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of the Colne River</figDesc>
+                        <head>Colne River</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Suffolk Road</figDesc>
+                        <head>Suffolk Road</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of London Road</figDesc>
+                        <head>London Road</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Malden Road</figDesc>
+                        <head>Malden Road</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of a road to the Hundreds</figDesc>
+                        <head>Road into the Hundreds</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Merrie Road</figDesc>
+                        <head>Merrie Road</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Cambridge Road</figDesc>
+                        <head>Cambridge Road</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of East Street</figDesc>
+                        <head>Eaſt Street</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <figDesc>depiction of Maudline Street</figDesc>
+                        <head>maudline Street</head>
+                     </figure>
+                  </p>
+                  <p>
+                     <list>
+                        <item>
+                           <hi>A.</hi> S. Martins</item>
+                        <item>
+                           <hi>B.</hi> S. Rumbals</item>
+                        <item>
+                           <hi>C.</hi> S. Tenant Chap.</item>
+                        <item>
+                           <hi>D.</hi> S. Nicholas</item>
+                        <item>
+                           <hi>E.</hi> Allhalows</item>
+                        <item>
+                           <hi>F.</hi> S. Iames</item>
+                        <item>
+                           <hi>G.</hi> S. Botolphs</item>
+                        <item>
+                           <hi>H.</hi> S. Gyles</item>
+                        <item>
+                           <hi>I.</hi> North Gate</item>
+                        <item>
+                           <hi>K.</hi> Eaſt Gate</item>
+                        <item>
+                           <hi>L.</hi> Botolphs Gate</item>
+                        <item>
+                           <hi>M.</hi> Shore Gate</item>
+                        <item>
+                           <hi>N.</hi> Head Gate</item>
+                        <item>
+                           <hi>O.</hi> High Street</item>
+                        <item>
+                           <hi>P.</hi> Eaſt Street</item>
+                        <item>
+                           <hi>Q.</hi> Botolph Street. &amp;. S. Marys</item>
+                        <item>
+                           <hi>R.</hi> Wyer Street</item>
+                        <item>
+                           <hi>S.</hi> Cow Street</item>
+                        <item>
+                           <hi>T.</hi> Middleborow</item>
+                        <item>
+                           <hi>V.</hi> Bouchers</item>
+                        <item>
+                           <hi>W.</hi> More-elm Lane</item>
+                        <item>
+                           <hi>X.</hi> Trinity Lane</item>
+                        <item>
+                           <hi>Y.</hi> S. Martins Lane</item>
+                        <item>
+                           <hi>Z.</hi> Tenants Lane</item>
+                     </list>
+                  </p>
+               </figure>
+            </p>
+            <div type="day">
+               <p>
+                  <label>Tueſday <hi>June</hi> 13.</label> The Lord <hi>Fairfax</hi> engaged in the fields bef<gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> 
+                  <hi>Colcheſter</hi> near S.<hi rend="sup">t</hi> 
+                  <hi>Maries,</hi> the Lord <hi>Gorings</hi> Forces, together with the Forces under Com<g ref="char:EOLhyphen"/>mand of the Lord <hi>Capell,</hi> and Sir <hi>Charl</hi>'s <hi>Lucas,</hi> and beat them into the Town; Colonell S<hi rend="sup">t</hi>. <hi>William Leyton</hi> and between 4 and 500 of y<hi rend="sup">e</hi> 
+                  <hi>Kings</hi> Forces were taken priſoners. (200 of them being of Colonell <hi>Farrs</hi> Regiment.) and in purſuit of the reſt. Col. <hi>Barkeſtead,</hi> with his Regiment, entred the Suburbs as far as head-Gate, and entred y<hi rend="sup">e</hi> Gate, but being overpowered there, and out of the Church-yard, y<hi rend="sup">e</hi> 
+                  <hi>Kings</hi> Forces Barracadoed the Gate. (leaving neer 500 men to our mercy:) yet notwithſtanding thoſe foot, and Col. <hi>Needhams</hi> fought many hours after in hopes to gain the Town at that place, but could not, the <hi>Kings</hi> Forces making good reſistance; there were ſlain of the <hi>Kings</hi> Forces, Col. Sir <hi>William Campion.</hi> Col. <hi>Cooke,</hi> and divers Officers of qua<g ref="char:EOLhyphen"/>lity, and about 80 private soldiers; Col. <hi>Panton.</hi> Capt <hi>Brunkerd. Clif<g ref="char:EOLhyphen"/>ford, Wors op,</hi> and divers other Officers wounded. On General <hi>Fairfax</hi>'s side Col. <hi>Needham.</hi> Capt. <hi>Lawrence</hi> of Horse. Capt. <hi>Cox</hi> of foot and neer 100 private souldiers and inferior Officers were ſlain: when we en<g ref="char:EOLhyphen"/>ter'd the Suburbs, the Lord <hi>Goring</hi> was Summoned but returned an Answer not becoming a Gentleman: The Word of the <hi>Kings</hi> Forces at y<hi rend="sup">e</hi> Fight was <hi>Charles,</hi> the ground they fought upon. <hi>Maries:</hi> C<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>. <hi>Gods—our help.</hi>
+               </p>
+               <div type="part">
+                  <head>The Forces under the Command of Generall <hi>Fairfax</hi> engaged in y<hi rend="sup">e</hi> Fight before <hi>Colcheſter,</hi> June 13. 1648 As also the names of the chief Comman<g ref="char:EOLhyphen"/>ders and persons of Quality of the Lord <hi>Gorings</hi> Forces engaged at that Fight.</head>
+                  <head type="sub">Generall <hi>Fairfaxes</hi> Forces engaged in that Fight.</head>
+                  <p>Part of the Generalls Regiment of Horse, being 4 Troops, Commanded by Major <hi>Deſbrough.</hi> Of Col. <hi>Whaleys</hi> Regiment, 6 Troops, Commanded by him<g ref="char:EOLhyphen"/>self. Of Col. <hi>Fleetwoods,</hi> 5 Troops, Commanded by Major <hi>Coleman.</hi> Three Troops of Commiſsary Gen<hi rend="sup">l</hi>. <hi>Iretons,</hi> Commanded by Captain <hi>Cecill.</hi> Two Troops of Dragoons, Commanded by Captain <hi>Freeman</hi> and Captain <hi>Barrington.</hi>
+                  </p>
+                  <p>
+                     <label>Of Foot.</label> Col. <hi>Barkſteeds</hi> Regiment Commanded by himſelf, conſiſting of 10 Companies, about 800 men. Col. <hi>Need<g ref="char:EOLhyphen"/>hams</hi> Regiment, lately the Tower Regiment, Com<g ref="char:cmbAbbrStroke">̄</g>and<g ref="char:EOLhyphen"/>ed by Col. <hi>Needham,</hi> being 7 Companies, and about 400 men. Part of Col. <hi>Ingleſby</hi>'s Regiment, of 4 Compa<g ref="char:EOLhyphen"/>nies, Commanded by Capt. <hi>Grimes,</hi> 320 men.</p>
+                  <p>
+                     <label>Of the <hi>Eſſex</hi> Forces.</label> Col. <hi>Harlackenden<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> Regiment, of 4 Troops of horse, Commanded by Major <hi>Robert Sparrow;</hi> and Captain <hi>Turners</hi> Troop of Dragoons. Sir <hi>Thomas Hunniwoods</hi> Regiment of Foot. Col. <hi>Cooks</hi> Regiment of Foot, both which said Regiments conſiſted of Auxiliaries, and Trained bands.</p>
+                  <p>The County Forces of <hi>Eſſex</hi> left to secure <hi>Chelmsford</hi> and <hi>Manſden,</hi> two conſiderable Paſses, left more Forces should resort from <hi>London</hi> to the Lord <hi>Goring.</hi>
+                  </p>
+                  <p>Colonel <hi>Henry Mildmaies</hi> Regiment of Horſe, and two Troops of Dragoons. Part of Col. <hi>Carew Mild<g ref="char:EOLhyphen"/>maies</hi> Regiment of Foot, Commanded by Major <hi>Bard.</hi>
+                  </p>
+                  <p>The <hi>Suffolk</hi> Forces, who made good the Paſses over the River at <hi>Nailand Stratford</hi> and <hi>Cadaway,</hi> leſt the Enemy ſhould eſcape towards <hi>Suffolk</hi> and <hi>Norfolk,</hi> were under the Command of Capt. <hi>Fiſher,</hi> Captain <hi>Bradling,</hi> and Captain <hi>Sparrow,</hi> beſides the aſsiſtance which Capt <hi>Ball,</hi> Capt. <hi>Cox,</hi> and the rest of the Sea Commanders gave to se<g ref="char:EOLhyphen"/>cure the River.</p>
+                  <p>The <hi>Suffolk</hi> Forces that came afterwards to help beſiege this Town.</p>
+                  <p>Colonel <hi>Gourdons</hi> Regiment of Horse.</p>
+                  <p>
+                     <label>Of Foot Regiments.</label> Colonel Sir <hi>Thomas Barnadiſtons,</hi> Col. <hi>Fothergils,</hi> Col. <hi>Harveys,</hi> Col. <hi>Bloiſes.</hi>
+                  </p>
+                  <p>
+                     <label>Of the Army that came up after the Fight.</label> Col. <hi>Scroop,</hi> with <hi>3</hi> Troops of horſe of his Regiment</p>
+               </div>
+               <div type="part">
+                  <head>The Lord <hi>Gorings</hi> Forces engaged in that Fight.</head>
+                  <p>
+                     <label>Of Horse.</label> Lord <hi>Gorings</hi> Regiment. Lord <hi>Capels</hi> Regiment. Sir <hi>William Comptons.</hi> Col. <hi>Slingſbies.</hi> Col. Sir <hi>Bernard Gascoignes.</hi> Colonel <hi>Hamonds.</hi> Colonel <hi>Culpeppers.</hi>
+                  </p>
+                  <p>
+                     <label>Of Foot.</label> Sir <hi>Charles Lucas</hi> his Regim<hi rend="sup">t</hi>. Sir <hi>George Liſles</hi> Regiment. Colonel <hi>Tilleys</hi> Regim<hi rend="sup">t</hi>. Col. <hi>Tewk</hi> his Regiment. Col. <hi>Farrs</hi> Regiment. Colonel <hi>Gilburds</hi> Regiment. Col. Sir <hi>William Campions</hi> Regi<g ref="char:EOLhyphen"/>ment, himſelf ſlain. Colonel <hi>Burds</hi> Regiment. Colonel <hi>Bowmans</hi> Regiment. Col. <hi>Cheſters</hi> Regiment.</p>
+               </div>
+               <div type="part">
+                  <head>Colonels who had no Comm<hi rend="sup">d</hi>. of Regiments, yet aſsiſting at that Fight.</head>
+                  <p>Earl <hi>Louborough,</hi> Lord <hi>Haſtings,</hi> Sir <hi>William Ley<g ref="char:EOLhyphen"/>ton,</hi> Colonel, taken Priſoner, and wounded. Col. Sir <hi>Rich<g ref="char:EOLhyphen"/>ard Haſtings,</hi> Colonel <hi>Iohn Heath,</hi> Colonel <hi>Lee</hi> of <hi>Kent,</hi> Colonel <hi>Panton</hi> wounded, Colonel <hi>Cook</hi> ſlain. Colonel Sir <hi>Hugh Orelie,</hi> Quarter-maſter Gen. Col. <hi>William-Mexey,</hi> Col. <hi>Pitman,</hi> Col. <hi>Beal,</hi> Lieu. Col. <hi>Hatch</hi> ſlain, Major <hi>Jammot,</hi> Adjutant Gen. beſides divers Lieu<g ref="char:EOLhyphen"/>tenant Colonels and Majors who were aſsiſtants, but had no Commands.</p>
+               </div>
+            </div>
+            <div type="day">
+               <p>
+                  <label>Wedneſday 14.</label> Generall <hi>Fairfax</hi> perceiving the Lord <hi>Gorings</hi> For<g ref="char:EOLhyphen"/>ces would not ſtand the field, reſolved to sit down before the Town in or<g ref="char:EOLhyphen"/>der to a Siege (but being too few to Storm it) having not then nor when he first engaged, 1500 old Foot, and but about 1500 Horse, and two Troops of Dragoons, (beſides the <hi>2</hi> Regiments of the Trained Bands, un<g ref="char:EOLhyphen"/>der Col Sir <hi>Thomas Hunniwood,</hi> and Col <hi>Cooke.</hi>) the Lord <hi>Gorings</hi> For<g ref="char:EOLhyphen"/>ces at that time being about 6000 Horse &amp; Foot in Town, and the Town and Suburbs larger in Compas than <hi>Oxford,</hi> and would require 5000 men to Beſiege it; appointed <hi>Lexden</hi> in the road to <hi>London</hi> for the Head-Quar<g ref="char:EOLhyphen"/>ter, where the greateſt Body was to lie, to prevent more aid for coming from <hi>London</hi> to the Lord <hi>Goring,</hi> and kept ſtrong Guards of Horse on <hi>Cambridge</hi> road on the other side the River, that they might not eſcape Northward to joyn with Sir <hi>Marmaduke Langdale,</hi> leaving no place open to them, but towards the Sea, where they could not go far; and the same day Our Generall sent a Party of Horse to secure <hi>Merſey</hi> Iſland, to prevent the <hi>Kings</hi> Ships from coming into the River to relieve the Town; the Beſieged sent Col. <hi>Tuke</hi> with a ſtrong Party an hour after,—but came too late.</p>
+               <p>
+                  <label>Thursday 15.</label> The Beſiegeds Canon from the Royall Fort at S<hi rend="sup">t</hi>. <hi>Maries,</hi> plaid very hard killed severall of our men, as they did the day before; some, as they were raiſing the first Work called Fort <hi>Eſsex,</hi> others as they were ſtragling in the field.</p>
+               <p>
+                  <label>Friday 16:</label> Nothing of importance happened, but. 3 of Capt. <hi>Canons</hi> men killed with a Canon Bullet.</p>
+               <p>
+                  <label>Saturday 17.</label> A Trumpet sent in about the Exchange of priſoners, &amp; this day the Beſieged got proviſions out of <hi>Tendering</hi> Hundred, which we could not prevent till y<hi rend="sup">e</hi> 
+                  <hi>Suffolk</hi> Forces march'd to our aſsiſtance.</p>
+               <p>
+                  <label>Sunday 18.</label> We took <hi>2</hi> of their Frigots, the one with <hi>10.</hi> the other with <hi>11</hi> Guns: &amp; this day Col. <hi>Ewers</hi> came up with <hi>6</hi> Companies from <hi>Chep<g ref="char:EOLhyphen"/>ſtow</hi> Caſtle: The Eſsex Foot under Sir <hi>Tho. Hunniwood</hi> &amp; Col. <hi>Cooke</hi> en<g ref="char:EOLhyphen"/>dured many Canon ſhot this day, and were very ready upon an Alarm.</p>
+               <p>
+                  <label>Munday 19.</label> The party of Horſe sent from the Leaguer under Major-<hi>Sparrow</hi> &amp; Capt <hi>Wallingford</hi> engaged the <hi>Kings</hi> Forces at <hi>Linton.</hi> (com<g ref="char:EOLunhyphen"/>ing to aſsiſt the Lord <hi>Goring.</hi>) where Major <hi>Muschampe</hi> &amp; others of the <hi>Kings</hi> Forces were ſlain, &amp; Maſter <hi>Reynolds,</hi> &amp; others taken priſoners, the reſt (about <hi>500.</hi>) disperst. This day a Trumpet came from y<hi rend="sup">e</hi> L<hi rend="sup">d</hi>. <hi>Goring,</hi> prentending to deſire a Treaty of Peace.</p>
+               <p>
+                  <label>Tueſday 20.</label> Answer returned, if a generall Peace was intended, that then it was proper for the Parlament to determine of that, and offered them in that anſwer Conditions, <hi>Viz.</hi> The Gentlemen &amp; Officers to go be<g ref="char:EOLhyphen"/>yond ſea, and the Souldiers to go home, without prejudice.</p>
+               <p>
+                  <label>Wedneſday 21.</label> The Beſieged returned a ſcornfull anſwer, moving for a free-trade for the Townſmen.</p>
+               <p>
+                  <label>Thursday 22.</label> A ſmall Party of the Beſieged ſallied out to view a new Work (afterwards called Col. <hi>Ewers</hi> Fort)—but were inſtantly beaten in by Muſqueteers. Their Canon killed two men of ours. That day the Lord <hi>Goring</hi> ſent a summons to the <hi>Suffolk</hi> Forces at <hi>Callaway</hi>-Bridge, Comm<hi rend="sup">dd</hi>. by Capt. <hi>Fiſher,</hi> &amp; Capt. <hi>Brandling,</hi> to joyn with him, which they refuſed Reſolving ſtill to adhere to the Parliament &amp; Army.</p>
+               <p>
+                  <label>Friday 23.</label> The Guns began this day to play from our new Batte<g ref="char:EOLhyphen"/>ry, which much annoyed the Beſieged at North bridge. Our Generall sent a Reply concerning his former offer, offering the same Condi<g ref="char:EOLhyphen"/>tions again to all in the Town, Except the L<hi rend="sup">d</hi>. <hi>Goring,</hi> L<hi rend="sup">d</hi>. <hi>Capell,</hi> and Sir <hi>Charles Lucas.</hi>
+               </p>
+               <p>
+                  <label>Saturday 24.</label> One of the Beſiegeds Canoneers was killed. This day the <hi>Suffolk</hi> Forces advanced out of their own County, &amp; took up their Quarters upon Mile-end, over againſt the North-gate, be<g ref="char:EOLhyphen"/>ing about <hi>2500</hi> Horſe and Foot, leaving a guard at <hi>Cattaway,</hi> and <hi>Nayland,</hi> to ſecure those paſses.</p>
+               <p>
+                  <label>Sunday 25.</label> Nothing of importance.</p>
+               <p>
+                  <label>Munday 26.</label> A party of Col. <hi>Barkſteeds</hi> Foot (the Beſieged hav<g ref="char:EOLhyphen"/>ing drawn out near the Almes-house) beat them from y<hi rend="sup">e</hi> Hedges, and from their Court of Guard, fired the Guard-houſe, and brought away the hour-glaſs by which they ſtood Centry.</p>
+               <p>
+                  <label>Tuesday 27.</label> A Trumpeter went in with the Lady <hi>Campions</hi> Ser<g ref="char:EOLhyphen"/>vant, with a Letter to her husband for ſhe did not beleeve he was ſlain.</p>
+               <p>
+                  <label>Wedneſday 28.</label> Chewed &amp; Poysoned Bulletts taken from severall of the Beſieged. Affidavit made by those Souldiers of y<hi rend="sup">e</hi> Besieged who brought them out of <hi>Colcheſter,</hi> that they were given out by the Lord <hi>Gorings</hi> ſpeciall Command. Theſe Examinations were ſent to y<hi rend="sup">e</hi> Lord <hi>Goring,</hi> with this Meſsage from Our Generall, That his men ſhould expect no Quarter hereafter, if they used such Bullets. This day early in the morning the Beſieged, with a party of Horſe, very boldly attempted our Horse Guards near S<hi rend="sup">t</hi>. <hi>Maries,</hi> ſhot a Scout, but were inſtantly beaten back.</p>
+               <p>
+                  <label>Thurſday 29.</label> They killed some Hors &amp; Foot of ours with their great Canon as they ſhot against our men, at y<hi rend="sup">e</hi> making of Col. <hi>Barkſteeds</hi> Fort, fired the House which was lately S<hi rend="sup">r</hi>. <hi>Har<g ref="char:EOLhyphen"/>bottle Grimſtons,</hi> &amp; at night fired M<hi rend="sup">r</hi>. <hi>Barringtons</hi> house, a party of the Beſiegeds Horse advanced over the Bridge at Eaſt<g ref="char:EOLhyphen"/>gate, where Ambuſcadoes being laid for them by our Dragoon's, Lieut. Col. <hi>Hatcher,</hi> &amp; divers other Officers &amp; Souldiers of the Beſieged, upon their haſty advance were ſlain: none on our part.</p>
+               <p>
+                  <label>Friday 30.</label> Exchange offered for Sir <hi>Will. Maſſam,</hi> but refused.</p>
+               <p>
+                  <label>Saturday July 1.</label> Col. <hi>Whaley</hi> poſsest <hi>Grinſted</hi> Church.</p>
+               <p>
+                  <label>Sunday 2.</label> Strong Guards kept that night to prevent the Beſiegeds escape Northward, we having notice of their intention.</p>
+               <p>
+                  <label>Monday 3. &amp; Tueſday 4.</label> Little of moment happened, except a Porter; or Chamberlain coming from the Bell in <hi>Gratious</hi>-ſtreet stole into the Town, with Intelligence of the Earl of-<hi>Hollands</hi> raiſ<g ref="char:EOLhyphen"/>ing an Army in &amp; about <hi>London</hi> for their relief.</p>
+               <p>
+                  <label>Wedneſday 5.</label> The Beſieged sallied out with a ſtrong party,—Commanded by Sir <hi>George Liſle,</hi> ſurpriſed our Guard at Eaſt<g ref="char:EOLhyphen"/>bridge, and gained two Drakes, but advanceing to y<hi rend="sup">e</hi> Main Guard were routed by Col. <hi>Whaleys</hi> horse, Commanded by Major <hi>Swal<g ref="char:EOLhyphen"/>low;</hi> 19 ſlain on the place, the Drakes recovered, and our former ground also; Lieut. Col. <hi>Weſton,</hi> Lieut. Col. <hi>Weeks,</hi> and <hi>80</hi> &amp; odd priſoners were taken, moſt of them sore cut for ſhooting poy<g ref="char:EOLhyphen"/>ſoned bullets (<hi>20</hi> of them died the next day) On our part, we had slain Lieut. Col. <hi>Shambrooke,</hi> and some others of Col. <hi>Needhams</hi> Regiment, who were engaged, Capt. <hi>Moody</hi> on our ſide wounded &amp; taken priſoner, and one Lieutenant &amp; Enſign, &amp; <hi>40</hi> private Sol<g ref="char:EOLhyphen"/>diers of ours taken prisoners also.</p>
+               <p>
+                  <label>Friday 7.</label> Col. <hi>Scroop</hi> sent from the Leaguer by our Generall, with a Regiment of Horse, to engage the Forces under y<hi rend="sup">e</hi> Duke of <hi>Buckingham</hi> and Earl of <hi>Holland:</hi> got into a body to raiſe y<hi rend="sup">e</hi> Siege.</p>
+               <p>
+                  <label>Saturday 8.</label> News of Col. <hi>Roſſiters</hi> routing the <hi>Pontefract</hi> Forces at <hi>Willoughby</hi> field, where <hi>3</hi> Troops of the Army were engaged, &amp; many of the men wounded; Colonel Generall Sir <hi>Philip Mounc<g ref="char:EOLhyphen"/>ton,</hi> Major Generall <hi>Biron,</hi> &amp; divers Officers of quality taken pri<g ref="char:EOLhyphen"/>soners by Colonell <hi>Roſſiter.</hi>
+               </p>
+               <p>
+                  <label>Sunday 9.</label> News of the Earl of <hi>Holland,</hi> and Duke of <hi>Burck<g ref="char:EOLhyphen"/>inghams</hi> being routed in <hi>Surrey,</hi> &amp; of the Lord <hi>Villiers</hi> being ſlaue by Sir <hi>Michael Leverſey,</hi> &amp; Major <hi>Gibbons,</hi> who Commanded a party of Horse of the Army.</p>
+               <p>
+                  <label>Monday 10.</label> Several of the Beſieged came away to us; new<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> came this day of the taking of <hi>600</hi> Horse in Northumberland, &amp; of Sir <hi>Francis Ratcliff,</hi> Col. <hi>Tempeſt,</hi> Col. <hi>Grey,</hi> &amp; other pri<g ref="char:EOLhyphen"/>ſoners, taken by Col. <hi>Lilburn.</hi>
+               </p>
+               <p>
+                  <label>Tuesday 11.</label> We had a Gunner &amp; a Matroſse ſhot, as they were battering S<hi rend="sup">t</hi>. <hi>Maries</hi> ſteeple. News came this day of y<hi rend="sup">e</hi> Earl of <hi>Hollands</hi> being taken prisoner by Col. <hi>Scroop;</hi> &amp; Sir <hi>Gilbert Gerrard,</hi> &amp; others of quality, &amp; that Col. <hi>Dalbeer</hi> was ſlain, and their whole force dispersed at S. <hi>Needs</hi> in <hi>Huntington</hi> ſhire.</p>
+               <p>
+                  <label>The 12 &amp; 13.</label> Little of moment happened, only M<hi rend="sup">r</hi>. <hi>Iohn Aſh<g ref="char:EOLhyphen"/>burnham</hi> offered in exchange for Sir <hi>William Maſsam,</hi> but not accepted; and this day the meſsenger who came to Our Generall with a Letter of the taking of <hi>Waymer</hi> Caſtle in <hi>Kent,</hi> took his oppertunity, and carried it into <hi>Colcheſter</hi> to the Lord <hi>Goring,</hi> and took up arms there.</p>
+               <p>
+                  <label>Friday 14.</label> The new Battery being raised againſt S<hi rend="sup">t</hi>. <hi>Iohns,</hi> from the Lord <hi>Lucas</hi> house, <hi>2</hi> pieces of Canon plaid thence, made a breach in the wall: The Souldiers entred, fell on imme<g ref="char:EOLhyphen"/>diately, drove the Beſieged out of the first Court-yard into the second, &amp; thence into y<hi rend="sup">e</hi> Gatehouse, and the same day a— ſtrong party of Horſe &amp; Foot fell upon the <hi>Hieth,</hi> &amp; ſtormed the Church, &amp; took all the Guard therein prisoners, being about <hi>70.</hi> and that night we poſſest our ſelves of the <hi>Hieth,</hi> &amp; a great part of the Suburbs, which much troubled y<hi rend="sup">e</hi> Beſieged: the <hi>Suffolk</hi> Foot did well in this service</p>
+               <p>
+                  <label>Saturday 15.</label> The Gate-house being a place very conſidera<g ref="char:EOLhyphen"/>ble, &amp; mighty advantagious for us. Our Generall reſolved to storm the same, though it had a ſtrong work before it; where<g ref="char:EOLhyphen"/>upon <hi>6</hi> Souldiers, for <hi>3</hi> ſhillings a piece, undertook to throw in Granadoes, and <hi>20</hi> men to carry Ladders for half a Crown a piece, &amp; a Commanded party of Foot to ſtorm, led on by Major <hi>Beſcoe,</hi> which accordingly they did as soon as <hi>8</hi> peice of Canon had given fire upon the Besieged, and the Granadoes did great execution the Ladders were placed with much ad<g ref="char:EOLhyphen"/>vantage, the Beſieged much dismaied, forced to quit ther—works, &amp; flie into the Gate-house, one Granadoe kindled their Magazin, and blew up many of the Beſieged, the reſt were taken priſoners, and ſlain; the priſoners confest they were above a hundred in the Gate-house &amp; work, and few of them could escape, <hi>13</hi> at one place were pulled out the next day from under the Rubbiſh. This night the Beſieged indea<g ref="char:EOLhyphen"/>voured to eſcape with their horse, Commanded by Sir <hi>Ber<g ref="char:EOLhyphen"/>nard Gaſcoign,</hi> and paſt the River between the North-bridge &amp; middle Mill, and had the Miller for their Guide, but y<hi rend="sup">e</hi> Miller when he came int othe Cloſes, ran away, and the Pioneers after him, and our Centinels giving fire, the Beſieged retreated; The Suburbs was Fired in <hi>6</hi> or <hi>7</hi> places, which burnt in a most-dreadfull manner all night long, that the Town might be seen almoſt as well by night as by day, so great was the flame. And on Sunday the <hi>16.</hi> other Streets were set on fire, with deſign to conſume the whole Suburbs, but by the induſtry of the Inhabitants &amp; Souldiers it was prevented. This day our Generall had certain Intelligence. That an Army of Scots under Duke <hi>Hamilton,</hi> had invaded the Kingdom &amp; joyned the Cavaliers under <hi>Langdale.</hi>
+               </p>
+               <p>
+                  <label>Sunday 16.</label> Our Generall sent a Summons again to Surren<g ref="char:EOLhyphen"/>der the Town: The Lord <hi>Goring,</hi> Lord <hi>Capell,</hi> &amp; Sir <hi>Char<g ref="char:EOLhyphen"/>les Lucas</hi> joyntly returned Answer (in writing) under their hands to our Generall. That if the Trumpeter came any more with such a Summons, they would hand him up. The Condi<g ref="char:EOLhyphen"/>tions then offered to the Souldiers, was. Liberty, and Paſſes to go to their severall homes, submitting to the Authority of Parliament.</p>
+               <p>
+                  <label>Munday 17.</label> Again more houſes were fired towards y<hi rend="sup">e</hi> North ſtreet, &amp; other places. This day our Generall had certain News brought him of the Surrender of <hi>Pembrook</hi> Town &amp; Caſtle, <hi>Langhorn,</hi> and <hi>Poyer</hi> submitting their lives to mercy.</p>
+               <p>
+                  <label>Tuesday 18.</label> Their Horse again attempted to break through towards the North, but were beaten in again.</p>
+               <p>
+                  <label>Wedneſday 19.</label> Seventeen of the Beſieged this day came —over to us, and their Horse were all drawn this day into the Caſtle-yard, &amp; a certain number out of every Troop was chosen to be killed; and there were told in the Caſtle Baily, <hi>700</hi> horse belonging to the Souldiers.</p>
+               <p>
+                  <label>Thursday 20.</label> They killed their horses; one Butcher ran away rather than he would do it. The Beſieged at night drew out their Horse at <hi>12</hi> of the clock, and afterwards at <hi>2</hi> of the clock in the morning to eſcape, but our men were in such readineſs they durſt not advance.</p>
+               <p>
+                  <label>Friday 21.</label> News came of Captain <hi>Batten's</hi> Revolt to the Revolted Ships, deſerting the Parliament, and turning to the <hi>King.</hi>
+               </p>
+               <p>
+                  <label>Saturday 22.</label> Severall Souldiers ran from the Beſieged, much complaining of their Diet in horse-fleſh, &amp; a Trumpeter was this day sent in again to expedite y<hi rend="sup">e</hi> Exchange of Sir <hi>Will<hi rend="sup">m</hi>. Maſſam,</hi> for M<hi rend="sup">r</hi>. <hi>Aſhburnham,</hi> but y<hi rend="sup">e</hi> Beſieged refused it, as also to admit of y<hi rend="sup">e</hi> exchange of the reſt of y<hi rend="sup">e</hi> Committee, though they had Gentlemen of very good rank offered for them (quality for quality) in exchange.</p>
+               <p>
+                  <label>Sunday 23.</label> The Beſieged roaſted a horse near the North-bridge to make the Souldiers merry at y<hi rend="sup">e</hi> entrance into ſuch Diet; this day our Generall had Intelligence of Col. <hi>Lamberts</hi> engagement with the <hi>Scots,</hi> near <hi>Appleby:</hi> where above <hi>100 Scots</hi> were ſlain. Col. <hi>Harriſon</hi> &amp; others on our part wounded.</p>
+               <p>
+                  <label>Munday 24.</label> Nothing of moment.</p>
+               <p>
+                  <label>Tueſday 25.</label> The Beſieged had a hot Alarm round the Town about <hi>12</hi> at night, and a partie in the meane time fired the Middle Mill, with the loſs of three men, and cut off a ſluce, but the fire did not take, so the deſign proved ineffectuall at that time; at the same time we ſhot <hi>20</hi> Arrows, (with papers of advertisement offered) into the Town, to undeceive the Souldiers; acquainting them with what Conditions were offered them, and ſhall ſtill be made good unto them, if they come out: which coming to some of their knowledge above <hi>200</hi> came out by that day <hi>7.</hi> night.</p>
+               <p>
+                  <label>Wedneſday 26.</label> Nothing of moment.</p>
+               <p>
+                  <label>Thursday 27.</label> A Troop of the Lord <hi>Capells</hi> ſallied out, and took <hi>3</hi> or <hi>4</hi> men as they were working upon the Line, near S<hi rend="sup">t</hi>. <hi>Botolphs,</hi> and wounded one miſerably, being a Country Souldier &amp; but a ſpectator.</p>
+               <p>
+                  <label>Friday, Saturday, &amp; Sunday 28. 29. &amp; 30.</label> Nothing of moment.</p>
+               <p>
+                  <label>Munday 31.</label> In the night about <hi>20</hi> of them with Spades, <hi>6</hi> only having Muſkets, paſt the first Centinell as friends, ſaying, they were come to make an end of the work where they wrought the night be<g ref="char:EOLhyphen"/>fore, but were fired upon at the second guard, had a Lieutenant slain, and retreated, and took a Serjeant with them priſoner.</p>
+               <p>
+                  <label>Tuesday August 1.</label> A Cornet, Quartermaſter, Corporall, and one Trooper came away with their horſes.</p>
+               <p>
+                  <label>Wedneſday 2. &amp; Thursday the third,</label> there came severall Soul<g ref="char:EOLhyphen"/>diers from the Beſieged, much complayning of their ill diet with horsefleſh, and said it was attended with Gentlewomen in white-Gownes &amp; black hoods (meaning Maggots,) so that they could not eat it, &amp; that it had brought many of them to the flux.</p>
+               <p>
+                  <label>Monday Auguſt 7.</label> Nothing of moment hapned: this day it was reſolved at a full Counsell of War, to proceed by way of Appro<g ref="char:EOLhyphen"/>aches in order to a Storm.</p>
+               <p>
+                  <label>Friday 11.</label> Nothing of note. This night <hi>30</hi> houſes were burnt.</p>
+               <p>
+                  <label>Tuesday 15.</label> Many men came over this day from the Beſieged, <hi>&amp;</hi> the poorer sort of people began to rise for want of bread.</p>
+               <p>
+                  <label>Wednesday 16.</label> They rise in great Numbers, and come to the Lord-<hi>Gorings</hi> Quarters, some bringing their Children ſtarved to death, they crying out so long as Horsefleſh, Dogs, and Cats were to be had, they did not complain. This day the Mayor of <hi>Colcheſter</hi> sent a Letter to the Gen. That the Inhabitants might come out, for that they had no proviſion, it being all ſeised by the Souldiers. Our Generall returned anſwer, He pittied their condition, but to grant that, was to make the Town hold out longer, and did not ſtand with his truſt to permit it. This day we had the news of the killing &amp; diſpersing the Princes forces by some Horſe and Foot of the Army, com<g ref="char:EOLhyphen"/>manded by Col. <hi>Rich,</hi> near <hi>Deale;</hi> and also of the regaining of <hi>Tin<g ref="char:EOLhyphen"/>mouth</hi> Caſtle by Sir <hi>Arthur Haſelrigg.</hi>
+               </p>
+               <p>
+                  <label>Thurſday 17.</label> The Lord <hi>Goring,</hi> Lord <hi>Capell,</hi> and Sir <hi>Charles Lu<g ref="char:EOLhyphen"/>cas,</hi> who before threatned to hang our Trumpeter if he came any more with a Meſſage for a Party, desired Our Generall they might send to the <hi>Kings</hi> Forces, and if they had not relief within <hi>20</hi> days, they would then Treat. Answer was returned by Our Gen. that he hop'd in much leſs time than <hi>20</hi> days, to have the Town without Treaty. All things are preparing in Order to a ſtorm.</p>
+               <p>
+                  <label>Friday 18.</label> No action but preparation for ſtorm.</p>
+               <p>
+                  <label>Saturday 19.</label> The Beſieged ſent for a Treaty to surrender.</p>
+               <p>
+                  <label>Sunday 20.</label> The Generall returned an answer to their offer for a Treaty, That all Souldiers &amp; Officers under the degree of a Captain, (excepting such as have deserted the Army since the <hi>10</hi> of May last) ſhall have Paſſes to go to their severall homes; and all Captaines, and Superior Officers, with Lords, and Gentlemen to mercie.</p>
+               <p>
+                  <label>Munday 21.</label> The Beſieged turned out of the Town in the night, ma<g ref="char:EOLhyphen"/>ny men, women, &amp; children, but the next morning took them in a<g ref="char:EOLhyphen"/>gain.</p>
+               <p>
+                  <label>Tueſday 22.</label> The Beſieged sent out Major <hi>Sheffield</hi> one of the Com<g ref="char:EOLhyphen"/>mittee that was prisoner in <hi>Colcheſter,</hi> that they would surrender upon honourable conditions, and desire to know the meaning of y<hi rend="sup">e</hi> word mercie. This day the news of routing the <hi>Scotſh</hi> army came, which we sent into the Town.</p>
+            </div>
+         </div>
+         <div type="list_of_historical_events">
+            <head>A Manuſcript of COLCHESTER taken out of the Records of the said Town.</head>
+            <list>
+               <item>Anno 219. <hi>Coell</hi> Duke of Brittanie began to build the Citty <hi>Raymore</hi> otherwise <hi>Colcheſter.</hi>
+               </item>
+               <item>Anno 238. <hi>Coell</hi> Duke of <hi>Colcheſter</hi> began to Raigne over <hi>Eſſex</hi> and <hi>Hartford-ſhire.</hi>
+               </item>
+               <item>Anno 242. <hi>Helena</hi> Daughter of <hi>Coell</hi> was borne att <hi>Colcheſter.</hi>
+               </item>
+               <item>Anno 260. <hi>Conſtantius</hi> Captain of the Romanes in <hi>Spain</hi> comeing into <hi>Brittain</hi> beſieged <hi>Colcheſter</hi> the space of two Years.</item>
+               <item>Anno 264. The Siege was Raised by a match Between <hi>Conſtantius</hi> and <hi>Helena.</hi>
+               </item>
+               <item>Anno 265. <hi>Conſtantine</hi> the Son of <hi>Conſtantius</hi> was born in <hi>Colcheſter.</hi>
+               </item>
+               <item>Anno 288. <hi>Conſtantius</hi> then was called <hi>Ceaſar</hi> of the Gaules.</item>
+               <item>Anno 289. <hi>Conſtantius</hi> when he had Slaine a considerable number of the Almaines that woarſted and over run <hi>Gaſſia:</hi> being call<g ref="char:EOLhyphen"/>ed <hi>Ceaſar</hi> of the Gaules was now Saluted <hi>Ceaſar Auguſtus.</hi>
+               </item>
+               <item>Anno 290. <hi>Coell</hi> when he had Slaine <hi>Aſclepodatus,</hi> the Tyrant Reigned over all <hi>Brittaine</hi> but was tributary to Rome. The same <hi>Coell</hi> Duke of <hi>Colcheſter.</hi>
+               </item>
+               <item>Anno 297. <hi>Coell</hi> King of <hi>Brittaine</hi> Dyed in <hi>Colcheſter</hi> the Second Month.</item>
+               <item>Anno 298. <hi>Conſtantius</hi> Returning out of <hi>Gallia</hi> dispoſed of the Kingdome.</item>
+               <item>Anno 299. <hi>Conſtantinus</hi> the Emperor dyed at Yorke, in the Sixteenth Year of his Empire.</item>
+               <item>Anno 303. <hi>Helena</hi> upon the death of <hi>Conſtantinus</hi> made a <g ref="char:V">Ʋ</g>ow of perpetuall Widowhood.</item>
+            </list>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>Printed and Sold by <hi>Tho: Witham</hi> at the Golden Ball in Long Lane near West Smithfield LONDON</p>
+         </div>
+      </back>
+   </text>
+</TEI>
